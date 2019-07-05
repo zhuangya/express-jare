@@ -4,15 +4,15 @@
   "description": "expree middleware for jare",
   "main": "index.js",
   "dependencies": {
-    "cheerio": "^0.20.0",
+    "cheerio": "^0.22.0",
     "express-interceptor": "^1.1.1",
-    "jare": "^0.0.1"
+    "jare": "^0.0.2"
   },
   "devDependencies": {
     "express": "^4.13.4",
     "istanbul": "^0.4.2",
-    "mocha": "^2.4.5",
-    "supertest": "^1.2.0"
+    "mocha": "^6.1.4",
+    "supertest": "^4.0.2"
   },
   "scripts": {
     "test": "istanbul cover _mocha -- -u exports -R spec test.js"
